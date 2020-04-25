@@ -1,19 +1,19 @@
 {
-    "title": "Mobilna varnost",
-    "name": "mobilna-varnost",
+    "title": "All Local",
+    "name": "alllocal",
     "version": "0.1.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
     "description": "For a safer tomorow.",
-    "homepage": "https://varnost.xyz",
+    "homepage": "https://alllocal.space",
     "bugs": {
-        "url": "https://github.com/tilenkavcic/Mobilna-varnost/issues"
+        "url": "https://github.com/tilenkavcic/All-Local-Website/issues"
     },
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/tilenkavcic/Mobilna-varnost.git"
+        "url": "https://github.com/tilenkavcic/All-Local-Website.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^5.10.2",
