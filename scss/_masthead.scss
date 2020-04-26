@@ -1,6 +1,11 @@
 // Styling for the masthead
 header.masthead {
     position: relative;
+    text-align: center;
+
+    img {
+        width: 300px;
+    }
 
     width: 100%;
     padding-top: 150px;
@@ -13,18 +18,18 @@ header.masthead {
     .header-content {
         max-width: 500px;
         margin-bottom: 100px;
-
         text-align: center;
         h1 {
             font-size: 30px;
         }
     }
     .device-container {
-        max-width: 325px;
         margin-right: auto;
         margin-left: auto;
-        .screen img {
-            border-radius: 3px;
+    }
+    @media (min-width: 500px) {
+        img {
+            width: 400px;
         }
     }
     @media (min-width: 992px) {
@@ -41,7 +46,9 @@ header.masthead {
             }
         }
         .device-container {
-            max-width: 325px;
+            img {
+                width: 400px;
+            }
         }
     }
 }
