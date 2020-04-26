@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #000000;
+  color: #1f1f1f;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: black;
+  color: #060606;
 }
 
 hr {
@@ -69,14 +69,14 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #000000;
+  color: #1f1f1f;
   font-family: 'Catamaran', 'Arial', 'Helvetica', 'sans-serif';
   font-weight: 700;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: black;
+  color: #060606;
 }
 
 #mainNav .navbar-toggler {
@@ -93,7 +93,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #000000 !important;
+  color: #1f1f1f !important;
   background-color: transparent;
 }
 
@@ -108,7 +108,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #000000;
+  color: #1f1f1f;
 }
 
 @media (min-width: 992px) {
@@ -138,7 +138,7 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #000000;
+    color: #1f1f1f;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -146,7 +146,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #000000;
+    color: #1f1f1f;
   }
 }
 
@@ -400,12 +400,12 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #000000;
-  background: linear-gradient(#000000, black);
+  background: #1f1f1f;
+  background: linear-gradient(#1f1f1f, #121212);
 }
 
 .text-primary {
-  color: #000000;
+  color: #1f1f1f;
 }
 
 .no-gutter > [class*='col-'] {
@@ -425,8 +425,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #000000;
-  background-color: #000000;
+  border-color: #1f1f1f;
+  background-color: #1f1f1f;
 }
 
 .btn {
