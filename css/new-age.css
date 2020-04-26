@@ -201,6 +201,7 @@ header.masthead .device-container {
     font-size: 50px;
   }
   header.masthead .device-container img {
+    margin-top: 60px;
     width: 400px;
   }
 }
